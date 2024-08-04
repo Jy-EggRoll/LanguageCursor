@@ -24,7 +24,7 @@ I just needed a simple software that could notify me of the Chinese and English 
 - 大幅优化鼠标样式（与小城子合作，详见最下方说明）
 - 删除了一项指针样式替换，不再替换链接指针
 
-- Optimized mouse styles (with small city co-operation, see below for details)
+- Optimized mouse styles (with Xiao Chengzi co-operation, see below for details)
 - Removed a pointer style replacement, no longer replacing link pointer
 
 ## 3. 功能——Features
