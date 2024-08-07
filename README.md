@@ -37,15 +37,22 @@ I just needed a simple software that could notify me of the Chinese and English 
 
 ## 4. 使用方法——Usage
 
-下载LanguageCursor.zip，解压到任意目录，先阅读内部的文件说明，安装对应的鼠标指针，再双击运行DynCursor.exe。
+下载LanguageCursor.zip，解压到任意目录，先阅读内部的文件说明，安装对应的鼠标指针，再**右键以管理员模式运行**DynCursor.exe。
 
-Download LanguageCursor.zip, extract it to any directory, read the internal file description first, install the corresponding mouse pointer, and then double-click to run DynCursor.exe.
+Download LanguageCursor.zip, extract it to any directory, read the internal file description first, install the corresponding mouse pointer, and then **run DynCursor.exe with administrator privileges**.
+
+为什么要用管理员模式运行？在以管理员模式运行的程序中，DynCursor无法实现鼠标效果的替换。当DynCursor也以管理员模式运行时，可以在任何位置替换鼠标的样式。
+
+
+Why run as administrator? In an administrator-run program, DynCursor cannot replace the mouse effect. When DynCursor is also run as an administrator, you can replace the mouse style at any position.
 
 ## 5. 开机自启动的配置方法——Auto-startup Configuration
 
 1. 给DynCursor.exe创建一个快捷方式，剪切这个快捷方式。
 2. 点击Win+R，输入shell:startup，打开“启动”文件夹。
 3. 将刚才剪切的快捷方式粘贴到“启动”文件夹。
+
+English:
 
 1. Create a shortcut for DynCursor.exe.
 2. Click Win+R, type "shell:startup", and open the "Startup" folder.
