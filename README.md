@@ -48,19 +48,25 @@ Why run as administrator? In an administrator-run program, DynCursor cannot repl
 
 ## 5. 开机自启动的配置方法——Auto-startup Configuration
 
-1. 给DynCursor.exe创建一个快捷方式，剪切这个快捷方式。
-2. 点击Win+R，输入shell:startup，打开“启动”文件夹。
-3. 将刚才剪切的快捷方式粘贴到“启动”文件夹。
+推荐采用计划任务的方式来让软件始终以管理员身份开机自启动。
+
+To make the software always start up with administrator privileges, it is recommended to use the Task Scheduler.
+
+1. 打开开始菜单，搜索“计划任务程序”
+2. 点击“创建任务”
+3. 任务配置如下（请将EggRoll视为您的用户名，并将DynCursor.exe的路径替换为您的实际路径）：
 
 English:
 
-1. Create a shortcut for DynCursor.exe.
-2. Click Win+R, type "shell:startup", and open the "Startup" folder.
-3. Paste the shortcut you just cut to the "Startup" folder.
+1. Open the Start menu, search for "Task Scheduler"
+2. Click "Creat task"
+3. Task configuration(replace EggRoll with your username and replace the path of DynCursor.exe with your actual path):
 
-这样，开机后，DynCursor.exe就会自动运行。
-
-That's it, DynCursor.exe will automatically run when you start your computer.
+![alt text](TaskConfiguration/image.png)
+![alt text](TaskConfiguration/image-1.png)
+![alt text](TaskConfiguration/image-2.png)
+![alt text](TaskConfiguration/image-3.png)
+![alt text](TaskConfiguration/image-4.png)
 
 ---
 
