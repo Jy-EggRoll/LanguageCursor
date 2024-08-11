@@ -1,4 +1,4 @@
-# 语言鼠标——LanguageCursor
+# 语言光标——LanguageCursor
 
 根据语言模式切换鼠标样式！
 
@@ -46,27 +46,15 @@ Download LanguageCursor.zip, extract it to any directory, read the internal file
 
 Why run as administrator? In an administrator-run program, DynCursor cannot replace the mouse effect. When DynCursor is also run as an administrator, you can replace the mouse style at any position.
 
-## 5. 开机自启动的配置方法——Auto-startup Configuration
+## 5. 开机自启动的配置说明——Configuration for Auto-Start
 
-推荐采用计划任务的方式来让软件始终以管理员身份开机自启动。
+为了确保最佳的效果，软件实际上需要以管理员身份启动。但是目前并没有找到比较理想的让软件开机自启动的方案，我会在之后的更新中完善这一点。
 
-To make the software always start up with administrator privileges, it is recommended to use the Task Scheduler.
+To achieve the best effect, the software needs to be started as an administrator. However, there is no ideal solution for starting the software automatically at boot time, and I will improve this in the future.
 
-1. 打开开始菜单，搜索“计划任务程序”
-2. 点击“创建任务”
-3. 任务配置如下（请将EggRoll视为您的用户名，并将DynCursor.exe的路径替换为您的实际路径）：
+目前最推荐的方法还是在系统启动后，以管理员身份运行DynCursor这个软件。
 
-English:
-
-1. Open the Start menu, search for "Task Scheduler"
-2. Click "Creat task"
-3. Task configuration(replace EggRoll with your username and replace the path of DynCursor.exe with your actual path):
-
-![alt text](TaskConfiguration/image.png)
-![alt text](TaskConfiguration/image-1.png)
-![alt text](TaskConfiguration/image-2.png)
-![alt text](TaskConfiguration/image-3.png)
-![alt text](TaskConfiguration/image-4.png)
+Now the most recommended method is to run DynCursor as an administrator after the system boots.
 
 ---
 
